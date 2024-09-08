@@ -1,5 +1,7 @@
 ### 🔵⚪️🦊 **Um projeto estrelado, feito por uma cruzeirense apaixonada!** 🔵⚪️🦊
 
+
+
 **O que é esse projeto?**
 
 É um site todo dedicado ao nosso amado Cruzeiro Esporte Clube, nação azul!  A ideia é criar um espaço com informações sobre o time, jogadores, história e muito mais.
