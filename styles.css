@@ -1,0 +1,294 @@
+body {
+  font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+  background-color: midnightblue; /* Cor de fundo da página */
+  color: white;
+  text-align: justify;
+  font-size: medium;
+  height: 100vh; /* Ajuste a altura conforme necessário */
+  background-image: url('https://static4.depositphotos.com/1020091/366/v/450/depositphotos_3661036-stock-illustration-starry-night.jpg');
+  background-size: cover; 
+  font-weight: bold;
+}
+
+
+.search-container {
+  text-align: center;
+}
+/* Caixa de texto para pesquisa */
+.search-input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1.5rem; /* Borda arredondada */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  color: rgb(2, 17, 154); /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  
+}
+
+/* Estiliza os botões dentro das seções */
+button {
+  padding: 1rem; /* Espaçamento interno do botão */
+  width: 10rem;
+  border: none; /* Remove a borda padrão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  background-color: #0033ab; /* Cor de fundo do botão */
+  color: #F5F7F8; /* Cor do texto do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+  font-family: sans-serif;
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+.button:hover {
+  background-color: rgb(2, 17, 154); /* Muda a cor de fundo ao passar o mouse */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+
+
+h1 {
+  font-size: 250%;
+  font-style: italic; 
+  text-decoration: underline;
+  background-color: rgba(0, 0, 139, 0.229);
+  border: none; /* Remove a borda padrão */
+  color: white; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1rem; /* Borda arredondada */
+  margin-bottom: 50%; /* Espaçamento abaixo dos inputs */
+  margin-top: 80%;
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  max-width: 90%; /* Define uma largura máxima de 80% */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  display: inline-block;
+  vertical-align: middle;
+    
+}
+    
+
+
+h2  {
+    padding: 5px;
+    width: 100%;
+    border-radius: 1;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: 1px; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    background-color: rgb(2, 17, 154);
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.3rem; /* Espaçamento entre letras */
+    border-radius: 1rem; /* Borda arredondada */
+    letter-spacing: 0.3rem;
+    max-width: 80%; /* Define uma largura máxima de 80% */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 120px;
+    margin-bottom: 100px;
+    
+   
+}
+
+
+h3 { 
+    border: none; /* Remove a borda padrão */
+    color: rgb(2, 17, 154); /* Cor do texto */
+    background-color: white;
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    padding: 2px; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    max-width: 35%; /* Define uma largura máxima de 80% */
+    opacity: 0.9;
+}
+    
+
+
+h4 { 
+    border: none; /* Remove a borda padrão */
+    color: rgb(2, 17, 154); /* Cor do texto */
+    background-color: white;
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    max-width: 35%; /* Define uma largura máxima de 80% */
+    opacity: 0.9;
+}
+
+
+h5 {
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  text-decoration: underline;
+  text-align: center;
+  color: #fff; 
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #fff;   
+   
+}
+
+
+h6 {
+    border: none; /* Remove a borda padrão */
+    color:  rgb(2, 17, 154); /* Cor do texto */
+    background-color:  white;
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+    padding: 2px; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    max-width: 50%; /* Define uma largura máxima de 80% */
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+/* Configuração do texto da seção Historia*/
+.conteudo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
+    
+}
+
+
+/* Configuração do acordeao da seção Historia*/
+.acordeon {
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border-radius: 1;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: 1px; /* Remove a borda padrão */
+    color: white; /* Cor do texto */
+    background-color:  rgb(2, 17, 154);
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.3rem; /* Espaçamento entre letras */
+    border-radius: 1rem; /* Borda arredondada */
+    letter-spacing: 0.3rem;
+    max-width: 80%; /* Define uma largura máxima de 80% */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 120px;
+    margin-bottom: 100px;
+  }
+  
+/* Configuração do conteudo da seção Historia*/
+.conteudo {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    border: none; /* Remove a borda padrão */
+    color: rgb(2, 17, 154); /* Cor do texto */
+    text-align: justify; /* Alinha o texto ao centro */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1rem; /* Borda arredondada */
+    margin-bottom: 50%; /* Espaçamento abaixo dos inputs */
+    margin-top: 80%;
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    max-width: 100; /* Define uma largura máxima de 80% */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    opacity: 0.9;
+   
+  }
+  
+  /* Configuracao do acordeon da secao Historia*/
+  .acordeon:hover {
+    background-color: #ccc;
+  }
+  
+  .acordeon:after {
+    content: '\002B'; /* Símbolo de + */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212"; /* Símbolo de - */
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+
+  /* Configuracao das imagens das estrelas ao lado do cabeçalho */
+  img {
+    width: 80px; 
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+/* Configuracao da imagem do escudo do Cruzeiro abaixo do cabeçalho */
+.container img:last-child {
+    display: block;
+    margin: 60px auto;
+    width: 200px;
+  }
+
+
+.iframe { 
+position: relative;
+left: 170px;
+}
+
+  /* Responsividade para celulares */
+@media (max-width: 480px) {
+
+  h1 {
+      font-size: 1.2rem; /* Tamanho da fonte em telas pequenas */
+      letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+  }
+
+  section input {
+      width: 1rem; /* Largura total dos inputs em telas pequenas */
+  }
+
+  section button {
+      padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+      font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+  }
+
+  .resultados-pesquisa {
+      width: 90%; /* Largura da caixa de resultados em telas pequenas */
+      height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+  }
+
+  .item-resultado h2 {
+      font-size: 2rem; /* Tamanho da fonte dos títulos em telas pequenas */
+  }
+
+  footer {
+      font-size: 0.7rem; /* Tamanho da fonte do rodapé em telas pequenas */
+  }
+}
+
+/* Cor do link */
+a:link {
+  color: navy;
+}
+a:visited {
+  color: navy;
+}
+a:active {
+  color: navy; 
+}
+  
