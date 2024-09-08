@@ -35,6 +35,8 @@ O projeto foi desenvolvido durante a imersão dev da Alura com Google Gemini.
 
 **#ÉOCabuloso #ReideCopas** 
 
+**Link Vercel:** https://imersao-dev-alura-cec.vercel.app/
+
 **Observações:**
 
 * **Dados:** Os dados dos jogadores e títulos podem ser atualizados conforme necessário.
